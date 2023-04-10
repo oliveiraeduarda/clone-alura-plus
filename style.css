@@ -5,6 +5,7 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
+    --botao-efeito: #76acee;
     --fonte-principal: 'Inter', sans-serif;
 }
 
@@ -127,4 +128,65 @@ body {
 .descricao_quaternario_texto {
     color: var(--cinza-secundario);
     width: 35em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 8em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo {
+    text-align: center;
+} 
+
+.rodape__lista{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.lista__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.lista__link:hover {
+    color: var(--botao-azul);
+}
+
+.rodape__texto {
+font-size: 14;
+color: var(--cinza-secundario);
+text-align: center;
+padding: 0 15em;
+margin: 2em 0;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-efeito);
+    color: var(--cor-de-fundo);
 }
